@@ -39,6 +39,7 @@ obi {
    adminUser = 'weblogic'
    adminPassword = 'Admin123'
    repositoryPassword = 'Admin123'
+   publishBase = 'test-build'
 }
 
 analytics {
