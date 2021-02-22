@@ -46,8 +46,8 @@ analytics {
    organization = 'Red Pill Analytics'
    bq {
       test {
-         bucket = 'rpa-gradle-analytics-test'
-         dataset = 'gradle_analytics_test'
+         bucket = 'rpa-gradle-analytics'
+         dataset = 'gradle_analytics'
       }
    }
 }
