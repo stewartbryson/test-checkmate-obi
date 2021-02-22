@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mc0000029-c8cb-180a-8edd-0a80000a0000" name="End Date" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/c0000026-c8cb-180a-8edd-0a80000a0000.xml#mc0000026-c8cb-180a-8edd-0a80000a0000">
+<PresentationColumn mdsid="mc000000c-c8cb-180a-8edd-0a80000a0000" name="Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-c502-180a-b3c9-0a80000a0000.xml#m00000001-c502-180a-b3c9-0a80000a0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000000d-c8cb-180a-8edd-0a80000a0000" name="Month Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-c502-180a-b3c9-0a80000a0000.xml#m00000002-c502-180a-b3c9-0a80000a0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000000e-c8cb-180a-8edd-0a80000a0000" name="Month Number" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-c502-180a-b3c9-0a80000a0000.xml#m00000003-c502-180a-b3c9-0a80000a0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000000f-c8cb-180a-8edd-0a80000a0000" name="Quarter" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-c502-180a-b3c9-0a80000a0000.xml#m00000004-c502-180a-b3c9-0a80000a0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000010-c8cb-180a-8edd-0a80000a0000" name="Year" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-c502-180a-b3c9-0a80000a0000.xml#m00000005-c502-180a-b3c9-0a80000a0000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="mc0000029-c8cb-180a-8edd-0a80000a0000-mc000002d-c8cb-180a-8edd-0a80000a0000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/c000002d-c8cb-180a-8edd-0a80000a0000.xml#mc000002d-c8cb-180a-8edd-0a80000a0000"/>
+</RefHierarchies>
+</PresentationTable>

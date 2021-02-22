@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mc000002b-c8cb-180a-8edd-0a80000a0000" name="Employees" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/c0000026-c8cb-180a-8edd-0a80000a0000.xml#mc0000026-c8cb-180a-8edd-0a80000a0000">
+<PresentationColumn mdsid="mc000001d-c8cb-180a-8edd-0a80000a0000" name="Commission Pct" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000007-c396-180a-8fda-0a80000a0000.xml#m40000009-c396-180a-8fda-0a80000a0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000001e-c8cb-180a-8edd-0a80000a0000" name="Department ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000007-c396-180a-8fda-0a80000a0000.xml#m4000000a-c396-180a-8fda-0a80000a0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000001f-c8cb-180a-8edd-0a80000a0000" name="Email" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000007-c396-180a-8fda-0a80000a0000.xml#m4000000b-c396-180a-8fda-0a80000a0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000020-c8cb-180a-8edd-0a80000a0000" name="Employee ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000007-c396-180a-8fda-0a80000a0000.xml#m4000000c-c396-180a-8fda-0a80000a0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000021-c8cb-180a-8edd-0a80000a0000" name="First Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000007-c396-180a-8fda-0a80000a0000.xml#m4000000d-c396-180a-8fda-0a80000a0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000022-c8cb-180a-8edd-0a80000a0000" name="Hire Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000007-c396-180a-8fda-0a80000a0000.xml#m4000000e-c396-180a-8fda-0a80000a0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000023-c8cb-180a-8edd-0a80000a0000" name="Job ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000007-c396-180a-8fda-0a80000a0000.xml#m4000000f-c396-180a-8fda-0a80000a0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000024-c8cb-180a-8edd-0a80000a0000" name="Last Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000007-c396-180a-8fda-0a80000a0000.xml#m40000010-c396-180a-8fda-0a80000a0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000025-c8cb-180a-8edd-0a80000a0000" name="Manager ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000007-c396-180a-8fda-0a80000a0000.xml#m40000011-c396-180a-8fda-0a80000a0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000000-c8cb-180a-8edd-0a80000a0000" name="Phone Number" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000007-c396-180a-8fda-0a80000a0000.xml#m40000012-c396-180a-8fda-0a80000a0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000001-c8cb-180a-8edd-0a80000a0000" name="Salary" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000007-c396-180a-8fda-0a80000a0000.xml#m40000013-c396-180a-8fda-0a80000a0000">
+</PresentationColumn>
+</PresentationTable>

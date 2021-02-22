@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m40000006-bfe6-180a-b3c9-0a80000a0000" name="DEPARTMENTS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000001-bfe6-180a-b3c9-0a80000a0000.xml#m40000001-bfe6-180a-b3c9-0a80000a0000">
+<PhysicalColumn mdsid="m40000007-bfe6-180a-b3c9-0a80000a0000" name="DEPARTMENT_ID" dataType="INT" precision="4" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000008-bfe6-180a-b3c9-0a80000a0000" name="DEPARTMENT_NAME" dataType="VARCHAR" precision="30" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000009-bfe6-180a-b3c9-0a80000a0000" name="LOCATION_ID" dataType="INT" precision="4" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000000a-bfe6-180a-b3c9-0a80000a0000" name="MANAGER_ID" dataType="INT" precision="6" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m4000002d-bfe6-180a-b3c9-0a80000a0000" name="DEPT_ID_PK">
+<RefColumns>
+<RefColumn refId="m4000002d-bfe6-180a-b3c9-0a80000a0000-m40000007-bfe6-180a-b3c9-0a80000a0000" columnRef="/oracle/bi/server/base/PhysicalTable/40000006-bfe6-180a-b3c9-0a80000a0000.xml#m40000007-bfe6-180a-b3c9-0a80000a0000"/>
+</RefColumns>
+</PhysicalKey>
+<PhysicalForeignKey mdsid="m00000001-bfe7-180a-b3c9-0a80000a0000" name="DEPT_LOC_FK" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000022-bfe6-180a-b3c9-0a80000a0000.xml#m40000031-bfe6-180a-b3c9-0a80000a0000">
+<RefColumns>
+<RefColumn refId="m00000001-bfe7-180a-b3c9-0a80000a0000-m40000009-bfe6-180a-b3c9-0a80000a0000" columnRef="/oracle/bi/server/base/PhysicalTable/40000006-bfe6-180a-b3c9-0a80000a0000.xml#m40000009-bfe6-180a-b3c9-0a80000a0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>

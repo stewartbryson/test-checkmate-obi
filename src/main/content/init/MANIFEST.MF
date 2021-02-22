@@ -1,0 +1,8 @@
+Manifest-Version: 1
+Implementation-Version: 19.7.0.0.0.20200117022600
+BINARY_MODE: RELEASE
+BIFNDN_LABEL: BIFNDN_19.7.0_LINUX.X64_200116.1600
+BINARY_VERSION: 19.7.0.0.0
+Specification-Version: 19.7.0.0.0
+Implementation-Vendor: Oracle
+

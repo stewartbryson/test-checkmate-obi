@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m00000008-c502-180a-b3c9-0a80000a0000" name="Job History" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/00000000-c502-180a-b3c9-0a80000a0000.xml#m00000000-c502-180a-b3c9-0a80000a0000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-d23a-3e1900000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR"."End Date"."Date"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-d23a-3e1900000000-m00000001-c502-180a-b3c9-0a80000a0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c502-180a-b3c9-0a80000a0000.xml#m00000001-c502-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-7778-796000000000" name="Expr">
+<ExprText><![CDATA[END_DATE]]></ExprText>
+<ExprTextDesc><![CDATA[END_DATE]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-7778-796000000000-m4000001f-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/4000001c-bfe6-180a-b3c9-0a80000a0000.xml#m4000001f-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/4000001c-bfe6-180a-b3c9-0a80000a0000.xml#m4000001c-bfe6-180a-b3c9-0a80000a0000">
+</Link>
+<WhereClause mdsid="m00000003-01f4-0000-662c-da6000000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000004-01f4-0000-6b47-3ea700000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000005-01f4-0000-f4f8-7b0d00000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

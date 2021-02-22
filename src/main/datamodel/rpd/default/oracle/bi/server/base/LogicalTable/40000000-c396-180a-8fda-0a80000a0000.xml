@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m40000000-c396-180a-8fda-0a80000a0000" name="Departments" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/80000000-c38d-180a-8fda-0a80000a0000.xml#m80000000-c38d-180a-8fda-0a80000a0000">
+<LogicalColumn mdsid="m40000002-c396-180a-8fda-0a80000a0000" name="Department ID" isWriteable="false">
+<AttributeDefn mdsid="m00000001-01f4-0000-0305-20d700000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."DEPARTMENTS"."DEPARTMENT_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-0305-20d700000000-m40000007-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000006-bfe6-180a-b3c9-0a80000a0000.xml#m40000007-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000003-c396-180a-8fda-0a80000a0000" name="Department Name" isWriteable="false">
+<AttributeDefn mdsid="m00000002-01f4-0000-b1d6-172a00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."DEPARTMENTS"."DEPARTMENT_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-b1d6-172a00000000-m40000008-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000006-bfe6-180a-b3c9-0a80000a0000.xml#m40000008-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000004-c396-180a-8fda-0a80000a0000" name="Location ID" isWriteable="false">
+<AttributeDefn mdsid="m00000003-01f4-0000-f21c-3ff800000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."DEPARTMENTS"."LOCATION_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-f21c-3ff800000000-m40000009-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000006-bfe6-180a-b3c9-0a80000a0000.xml#m40000009-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000005-c396-180a-8fda-0a80000a0000" name="Manager ID" isWriteable="false">
+<AttributeDefn mdsid="m00000004-01f4-0000-fd33-072500000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."DEPARTMENTS"."MANAGER_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-fd33-072500000000-m4000000a-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000006-bfe6-180a-b3c9-0a80000a0000.xml#m4000000a-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000000-c39f-180a-b3c9-0a80000a0000" name="City" isWriteable="false">
+<AttributeDefn mdsid="m00000005-01f4-0000-d557-a95400000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."LOCATIONS"."CITY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-d557-a95400000000-m40000023-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000022-bfe6-180a-b3c9-0a80000a0000.xml#m40000023-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000001-c39f-180a-b3c9-0a80000a0000" name="Country ID" isWriteable="false">
+<AttributeDefn mdsid="m00000006-01f4-0000-b074-5f0200000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."LOCATIONS"."COUNTRY_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-b074-5f0200000000-m40000024-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000022-bfe6-180a-b3c9-0a80000a0000.xml#m40000024-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000002-c39f-180a-b3c9-0a80000a0000" name="Postal Code" isWriteable="false">
+<AttributeDefn mdsid="m00000007-01f4-0000-6bd6-6d8c00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."LOCATIONS"."POSTAL_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-6bd6-6d8c00000000-m40000026-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000022-bfe6-180a-b3c9-0a80000a0000.xml#m40000026-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000003-c39f-180a-b3c9-0a80000a0000" name="State Province" isWriteable="false">
+<AttributeDefn mdsid="m00000008-01f4-0000-786d-d14800000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."LOCATIONS"."STATE_PROVINCE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-786d-d14800000000-m40000027-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000022-bfe6-180a-b3c9-0a80000a0000.xml#m40000027-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000004-c39f-180a-b3c9-0a80000a0000" name="Street Address" isWriteable="false">
+<AttributeDefn mdsid="m00000009-01f4-0000-4cb2-9d0c00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."LOCATIONS"."STREET_ADDRESS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-4cb2-9d0c00000000-m40000028-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000022-bfe6-180a-b3c9-0a80000a0000.xml#m40000028-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000000-c3a2-180a-b3c9-0a80000a0000" name="Country Name" isWriteable="false">
+<AttributeDefn mdsid="m0000000a-01f4-0000-8437-c56900000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."COUNTRIES"."COUNTRY_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-8437-c56900000000-m40000004-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000002-bfe6-180a-b3c9-0a80000a0000.xml#m40000004-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000001-c3a2-180a-b3c9-0a80000a0000" name="Region ID" isWriteable="false">
+<AttributeDefn mdsid="m0000000b-01f4-0000-e58f-0aa100000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."COUNTRIES"."REGION_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-e58f-0aa100000000-m40000005-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000002-bfe6-180a-b3c9-0a80000a0000.xml#m40000005-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000000-c3a3-180a-b3c9-0a80000a0000" name="Region Name" isWriteable="false">
+<AttributeDefn mdsid="m0000000c-01f4-0000-2406-f5e100000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."REGIONS"."REGION_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-2406-f5e100000000-m4000002b-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000029-bfe6-180a-b3c9-0a80000a0000.xml#m4000002b-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m40000006-c396-180a-8fda-0a80000a0000" name="DEPT_ID_PK" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m40000006-c396-180a-8fda-0a80000a0000-m40000002-c396-180a-8fda-0a80000a0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-c396-180a-8fda-0a80000a0000.xml#m40000002-c396-180a-8fda-0a80000a0000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m40000000-c396-180a-8fda-0a80000a0000-m40000001-c396-180a-8fda-0a80000a0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/40000001-c396-180a-8fda-0a80000a0000.xml#m40000001-c396-180a-8fda-0a80000a0000"/>
+</RefTableSources>
+</LogicalTable>

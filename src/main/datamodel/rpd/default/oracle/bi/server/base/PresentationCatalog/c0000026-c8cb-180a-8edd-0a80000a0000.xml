@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationCatalog mdsid="mc0000026-c8cb-180a-8edd-0a80000a0000" name="HR" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" isAutoAggr="true" subjectAreaRef="/oracle/bi/server/base/BusinessModel/80000000-c38d-180a-8fda-0a80000a0000.xml#m80000000-c38d-180a-8fda-0a80000a0000">
+<RefTables>
+<RefPresentationTable refId="mc0000026-c8cb-180a-8edd-0a80000a0000-mc000002a-c8cb-180a-8edd-0a80000a0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/c000002a-c8cb-180a-8edd-0a80000a0000.xml#mc000002a-c8cb-180a-8edd-0a80000a0000"/>
+<RefPresentationTable refId="mc0000026-c8cb-180a-8edd-0a80000a0000-mc000002b-c8cb-180a-8edd-0a80000a0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/c000002b-c8cb-180a-8edd-0a80000a0000.xml#mc000002b-c8cb-180a-8edd-0a80000a0000"/>
+<RefPresentationTable refId="mc0000026-c8cb-180a-8edd-0a80000a0000-mc0000027-c8cb-180a-8edd-0a80000a0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/c0000027-c8cb-180a-8edd-0a80000a0000.xml#mc0000027-c8cb-180a-8edd-0a80000a0000"/>
+<RefPresentationTable refId="mc0000026-c8cb-180a-8edd-0a80000a0000-mc0000028-c8cb-180a-8edd-0a80000a0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/c0000028-c8cb-180a-8edd-0a80000a0000.xml#mc0000028-c8cb-180a-8edd-0a80000a0000"/>
+<RefPresentationTable refId="mc0000026-c8cb-180a-8edd-0a80000a0000-mc0000029-c8cb-180a-8edd-0a80000a0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/c0000029-c8cb-180a-8edd-0a80000a0000.xml#mc0000029-c8cb-180a-8edd-0a80000a0000"/>
+</RefTables>
+</PresentationCatalog>

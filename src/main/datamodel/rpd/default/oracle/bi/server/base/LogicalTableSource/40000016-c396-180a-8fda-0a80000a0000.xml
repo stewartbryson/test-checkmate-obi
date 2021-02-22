@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m40000016-c396-180a-8fda-0a80000a0000" name="Job History" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/40000015-c396-180a-8fda-0a80000a0000.xml#m40000015-c396-180a-8fda-0a80000a0000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-94a0-cb0900000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR"."Job History"."Department ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-94a0-cb0900000000-m40000017-c396-180a-8fda-0a80000a0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000015-c396-180a-8fda-0a80000a0000.xml#m40000017-c396-180a-8fda-0a80000a0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-a779-359e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."JOB_HISTORY"."DEPARTMENT_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-a779-359e00000000-m4000001d-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/4000001c-bfe6-180a-b3c9-0a80000a0000.xml#m4000001d-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-ac20-cc6000000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR"."Job History"."Employee ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-ac20-cc6000000000-m40000018-c396-180a-8fda-0a80000a0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000015-c396-180a-8fda-0a80000a0000.xml#m40000018-c396-180a-8fda-0a80000a0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-7648-edfe00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."JOB_HISTORY"."EMPLOYEE_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-7648-edfe00000000-m4000001e-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/4000001c-bfe6-180a-b3c9-0a80000a0000.xml#m4000001e-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-d3ac-e0cd00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR"."Job History"."End Date"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-d3ac-e0cd00000000-m40000019-c396-180a-8fda-0a80000a0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000015-c396-180a-8fda-0a80000a0000.xml#m40000019-c396-180a-8fda-0a80000a0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-8002-b73000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."JOB_HISTORY"."END_DATE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-8002-b73000000000-m4000001f-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/4000001c-bfe6-180a-b3c9-0a80000a0000.xml#m4000001f-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-f179-857200000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR"."Job History"."Job ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-f179-857200000000-m4000001a-c396-180a-8fda-0a80000a0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000015-c396-180a-8fda-0a80000a0000.xml#m4000001a-c396-180a-8fda-0a80000a0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-1fa2-286c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."JOB_HISTORY"."JOB_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-1fa2-286c00000000-m40000020-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/4000001c-bfe6-180a-b3c9-0a80000a0000.xml#m40000020-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000009-01f4-0000-372f-86d100000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR"."Job History"."Count"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-372f-86d100000000-mc0000000-c8ac-180a-8fda-0a80000a0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000015-c396-180a-8fda-0a80000a0000.xml#mc0000000-c8ac-180a-8fda-0a80000a0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000a-01f4-0000-34e5-c23c00000000" name="Expr">
+<ExprText><![CDATA[1]]></ExprText>
+<ExprTextDesc><![CDATA[1]]></ExprTextDesc>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/4000001c-bfe6-180a-b3c9-0a80000a0000.xml#m4000001c-bfe6-180a-b3c9-0a80000a0000">
+</Link>
+<WhereClause mdsid="m0000000b-01f4-0000-88ea-49a300000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m0000000c-01f4-0000-34cb-9ae800000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m0000000d-01f4-0000-4f74-120a00000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m00000000-c502-180a-b3c9-0a80000a0000" name="End Date" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/80000000-c38d-180a-8fda-0a80000a0000.xml#m80000000-c38d-180a-8fda-0a80000a0000">
+<LogicalColumn mdsid="m00000001-c502-180a-b3c9-0a80000a0000" name="Date" isWriteable="false">
+<AttributeDefn mdsid="m00000001-01f4-0000-dba6-6acf00000000" name="AttributeDefn">
+<ExprText><![CDATA[END_DATE]]></ExprText>
+<ExprTextDesc><![CDATA[END_DATE]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-dba6-6acf00000000-m4000001f-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/4000001c-bfe6-180a-b3c9-0a80000a0000.xml#m4000001f-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000002-c502-180a-b3c9-0a80000a0000" name="Month Name" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000002-01f4-0000-e258-894300000000" name="Expr">
+<ExprText><![CDATA[ MONTHNAME("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ MONTHNAME("HR"."End Date"."Date")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-e258-894300000000-m00000001-c502-180a-b3c9-0a80000a0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c502-180a-b3c9-0a80000a0000.xml#m00000001-c502-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</Expr>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000003-c502-180a-b3c9-0a80000a0000" name="Month Number" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000003-01f4-0000-f7a7-80a300000000" name="Expr">
+<ExprText><![CDATA[ (Year("%1" ) * 100) + Month("%1" )]]></ExprText>
+<ExprTextDesc><![CDATA[ (Year("HR"."End Date"."Date" ) * 100) + Month("HR"."End Date"."Date" )]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-f7a7-80a300000000-m00000001-c502-180a-b3c9-0a80000a0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c502-180a-b3c9-0a80000a0000.xml#m00000001-c502-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</Expr>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000004-c502-180a-b3c9-0a80000a0000" name="Quarter" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000004-01f4-0000-3dfe-599e00000000" name="Expr">
+<ExprText><![CDATA[(Year("%1" ) * 10) +  EXTRACT( QUARTER_OF_YEAR  FROM "%1")]]></ExprText>
+<ExprTextDesc><![CDATA[(Year("HR"."End Date"."Date" ) * 10) +  EXTRACT( QUARTER_OF_YEAR  FROM "HR"."End Date"."Date")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-3dfe-599e00000000-m00000001-c502-180a-b3c9-0a80000a0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c502-180a-b3c9-0a80000a0000.xml#m00000001-c502-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</Expr>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000005-c502-180a-b3c9-0a80000a0000" name="Year" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000005-01f4-0000-3bb3-43e700000000" name="Expr">
+<ExprText><![CDATA[ EXTRACT( YEAR  FROM "%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ EXTRACT( YEAR  FROM "HR"."End Date"."Date")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-3bb3-43e700000000-m00000001-c502-180a-b3c9-0a80000a0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c502-180a-b3c9-0a80000a0000.xml#m00000001-c502-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</Expr>
+</LogicalColumn>
+<LogicalKey mdsid="m00000007-c502-180a-b3c9-0a80000a0000" name="Start Date" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m00000007-c502-180a-b3c9-0a80000a0000-m00000001-c502-180a-b3c9-0a80000a0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-c502-180a-b3c9-0a80000a0000.xml#m00000001-c502-180a-b3c9-0a80000a0000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m00000000-c502-180a-b3c9-0a80000a0000-m00000008-c502-180a-b3c9-0a80000a0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/00000008-c502-180a-b3c9-0a80000a0000.xml#m00000008-c502-180a-b3c9-0a80000a0000"/>
+</RefTableSources>
+</LogicalTable>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m40000001-c396-180a-8fda-0a80000a0000" name="Departments" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/40000000-c396-180a-8fda-0a80000a0000.xml#m40000000-c396-180a-8fda-0a80000a0000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-793b-112f00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR"."Departments"."Department ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-793b-112f00000000-m40000002-c396-180a-8fda-0a80000a0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-c396-180a-8fda-0a80000a0000.xml#m40000002-c396-180a-8fda-0a80000a0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-a7fc-d08c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."DEPARTMENTS"."DEPARTMENT_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-a7fc-d08c00000000-m40000007-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000006-bfe6-180a-b3c9-0a80000a0000.xml#m40000007-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-8fca-decd00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR"."Departments"."Department Name"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-8fca-decd00000000-m40000003-c396-180a-8fda-0a80000a0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-c396-180a-8fda-0a80000a0000.xml#m40000003-c396-180a-8fda-0a80000a0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-005a-dea000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."DEPARTMENTS"."DEPARTMENT_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-005a-dea000000000-m40000008-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000006-bfe6-180a-b3c9-0a80000a0000.xml#m40000008-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-1caf-6bf500000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR"."Departments"."Location ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-1caf-6bf500000000-m40000004-c396-180a-8fda-0a80000a0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-c396-180a-8fda-0a80000a0000.xml#m40000004-c396-180a-8fda-0a80000a0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-c47d-5c5b00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."DEPARTMENTS"."LOCATION_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-c47d-5c5b00000000-m40000009-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000006-bfe6-180a-b3c9-0a80000a0000.xml#m40000009-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-fe50-287200000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR"."Departments"."Manager ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-fe50-287200000000-m40000005-c396-180a-8fda-0a80000a0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-c396-180a-8fda-0a80000a0000.xml#m40000005-c396-180a-8fda-0a80000a0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-84ce-2c7c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."DEPARTMENTS"."MANAGER_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-84ce-2c7c00000000-m4000000a-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000006-bfe6-180a-b3c9-0a80000a0000.xml#m4000000a-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000009-01f4-0000-da25-459800000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR"."Departments"."City"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-da25-459800000000-m00000000-c39f-180a-b3c9-0a80000a0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-c396-180a-8fda-0a80000a0000.xml#m00000000-c39f-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000a-01f4-0000-dd93-ac6300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."LOCATIONS"."CITY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-dd93-ac6300000000-m40000023-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000022-bfe6-180a-b3c9-0a80000a0000.xml#m40000023-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000b-01f4-0000-2c34-56c600000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR"."Departments"."Country ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-2c34-56c600000000-m00000001-c39f-180a-b3c9-0a80000a0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-c396-180a-8fda-0a80000a0000.xml#m00000001-c39f-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000c-01f4-0000-7e80-e76300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."LOCATIONS"."COUNTRY_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-7e80-e76300000000-m40000024-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000022-bfe6-180a-b3c9-0a80000a0000.xml#m40000024-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000d-01f4-0000-bdab-119500000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR"."Departments"."Postal Code"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-bdab-119500000000-m00000002-c39f-180a-b3c9-0a80000a0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-c396-180a-8fda-0a80000a0000.xml#m00000002-c39f-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000e-01f4-0000-260e-02d700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."LOCATIONS"."POSTAL_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-260e-02d700000000-m40000026-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000022-bfe6-180a-b3c9-0a80000a0000.xml#m40000026-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000f-01f4-0000-2da9-310500000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR"."Departments"."State Province"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000f-01f4-0000-2da9-310500000000-m00000003-c39f-180a-b3c9-0a80000a0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-c396-180a-8fda-0a80000a0000.xml#m00000003-c39f-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000010-01f4-0000-caab-6e0400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."LOCATIONS"."STATE_PROVINCE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000010-01f4-0000-caab-6e0400000000-m40000027-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000022-bfe6-180a-b3c9-0a80000a0000.xml#m40000027-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000011-01f4-0000-38a9-4d4800000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR"."Departments"."Street Address"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000011-01f4-0000-38a9-4d4800000000-m00000004-c39f-180a-b3c9-0a80000a0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-c396-180a-8fda-0a80000a0000.xml#m00000004-c39f-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000012-01f4-0000-93c8-a1d600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."LOCATIONS"."STREET_ADDRESS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000012-01f4-0000-93c8-a1d600000000-m40000028-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000022-bfe6-180a-b3c9-0a80000a0000.xml#m40000028-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000013-01f4-0000-7531-cb4000000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR"."Departments"."Country Name"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000013-01f4-0000-7531-cb4000000000-m00000000-c3a2-180a-b3c9-0a80000a0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-c396-180a-8fda-0a80000a0000.xml#m00000000-c3a2-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000014-01f4-0000-d4c1-d43500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."COUNTRIES"."COUNTRY_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000014-01f4-0000-d4c1-d43500000000-m40000004-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000002-bfe6-180a-b3c9-0a80000a0000.xml#m40000004-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000015-01f4-0000-88ee-4b4700000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR"."Departments"."Region ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000015-01f4-0000-88ee-4b4700000000-m00000001-c3a2-180a-b3c9-0a80000a0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-c396-180a-8fda-0a80000a0000.xml#m00000001-c3a2-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000016-01f4-0000-ae2d-b40400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."COUNTRIES"."REGION_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000016-01f4-0000-ae2d-b40400000000-m40000005-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000002-bfe6-180a-b3c9-0a80000a0000.xml#m40000005-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000017-01f4-0000-f4f5-d66900000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR"."Departments"."Region Name"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000017-01f4-0000-f4f5-d66900000000-m00000000-c3a3-180a-b3c9-0a80000a0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-c396-180a-8fda-0a80000a0000.xml#m00000000-c3a3-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000018-01f4-0000-b824-f64d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."REGIONS"."REGION_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000018-01f4-0000-b824-f64d00000000-m4000002b-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000029-bfe6-180a-b3c9-0a80000a0000.xml#m4000002b-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/40000002-bfe6-180a-b3c9-0a80000a0000.xml#m40000002-bfe6-180a-b3c9-0a80000a0000">
+<Join type="Inner" cardinality="MANY TO ONE" physicalTable1Ref="/oracle/bi/server/base/PhysicalTable/40000002-bfe6-180a-b3c9-0a80000a0000.xml#m40000002-bfe6-180a-b3c9-0a80000a0000" physicalTable2Ref="/oracle/bi/server/base/PhysicalTable/40000029-bfe6-180a-b3c9-0a80000a0000.xml#m40000029-bfe6-180a-b3c9-0a80000a0000" physicalJoinRef="/oracle/bi/server/base/PhysicalTable/40000002-bfe6-180a-b3c9-0a80000a0000.xml#m00000000-bfe7-180a-b3c9-0a80000a0000"/>
+<Join type="Inner" cardinality=" ONE TO MANY" physicalTable1Ref="/oracle/bi/server/base/PhysicalTable/40000002-bfe6-180a-b3c9-0a80000a0000.xml#m40000002-bfe6-180a-b3c9-0a80000a0000" physicalTable2Ref="/oracle/bi/server/base/PhysicalTable/40000022-bfe6-180a-b3c9-0a80000a0000.xml#m40000022-bfe6-180a-b3c9-0a80000a0000" physicalJoinRef="/oracle/bi/server/base/PhysicalTable/40000022-bfe6-180a-b3c9-0a80000a0000.xml#m00000008-bfe7-180a-b3c9-0a80000a0000"/>
+</Link>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/40000006-bfe6-180a-b3c9-0a80000a0000.xml#m40000006-bfe6-180a-b3c9-0a80000a0000">
+<Join type="Inner" cardinality="MANY TO ONE" physicalTable1Ref="/oracle/bi/server/base/PhysicalTable/40000006-bfe6-180a-b3c9-0a80000a0000.xml#m40000006-bfe6-180a-b3c9-0a80000a0000" physicalTable2Ref="/oracle/bi/server/base/PhysicalTable/40000022-bfe6-180a-b3c9-0a80000a0000.xml#m40000022-bfe6-180a-b3c9-0a80000a0000" physicalJoinRef="/oracle/bi/server/base/PhysicalTable/40000006-bfe6-180a-b3c9-0a80000a0000.xml#m00000001-bfe7-180a-b3c9-0a80000a0000"/>
+</Link>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/40000022-bfe6-180a-b3c9-0a80000a0000.xml#m40000022-bfe6-180a-b3c9-0a80000a0000">
+<Join type="Inner" cardinality=" ONE TO MANY" physicalTable1Ref="/oracle/bi/server/base/PhysicalTable/40000022-bfe6-180a-b3c9-0a80000a0000.xml#m40000022-bfe6-180a-b3c9-0a80000a0000" physicalTable2Ref="/oracle/bi/server/base/PhysicalTable/40000006-bfe6-180a-b3c9-0a80000a0000.xml#m40000006-bfe6-180a-b3c9-0a80000a0000" physicalJoinRef="/oracle/bi/server/base/PhysicalTable/40000006-bfe6-180a-b3c9-0a80000a0000.xml#m00000001-bfe7-180a-b3c9-0a80000a0000"/>
+<Join type="Inner" cardinality="MANY TO ONE" physicalTable1Ref="/oracle/bi/server/base/PhysicalTable/40000022-bfe6-180a-b3c9-0a80000a0000.xml#m40000022-bfe6-180a-b3c9-0a80000a0000" physicalTable2Ref="/oracle/bi/server/base/PhysicalTable/40000002-bfe6-180a-b3c9-0a80000a0000.xml#m40000002-bfe6-180a-b3c9-0a80000a0000" physicalJoinRef="/oracle/bi/server/base/PhysicalTable/40000022-bfe6-180a-b3c9-0a80000a0000.xml#m00000008-bfe7-180a-b3c9-0a80000a0000"/>
+</Link>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/40000029-bfe6-180a-b3c9-0a80000a0000.xml#m40000029-bfe6-180a-b3c9-0a80000a0000">
+<Join type="Inner" cardinality=" ONE TO MANY" physicalTable1Ref="/oracle/bi/server/base/PhysicalTable/40000029-bfe6-180a-b3c9-0a80000a0000.xml#m40000029-bfe6-180a-b3c9-0a80000a0000" physicalTable2Ref="/oracle/bi/server/base/PhysicalTable/40000002-bfe6-180a-b3c9-0a80000a0000.xml#m40000002-bfe6-180a-b3c9-0a80000a0000" physicalJoinRef="/oracle/bi/server/base/PhysicalTable/40000002-bfe6-180a-b3c9-0a80000a0000.xml#m00000000-bfe7-180a-b3c9-0a80000a0000"/>
+</Link>
+<WhereClause mdsid="m00000019-01f4-0000-7e0e-395300000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m0000001a-01f4-0000-3726-5c1a00000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m0000001b-01f4-0000-8c80-6e9300000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

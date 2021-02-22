@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- These application roles are used in catalog bootstrapping during initializing of service instance. -->
+<ReservedApplicationRoles>
+   <!-- Name of the application role, description etc goes here -->
+   <BIAdministratorRole name="BIServiceAdministrator"/>
+   <BIAuthorRole name="BIContentAuthor"/>
+   <BIConsumerRole name="BIConsumer"/>
+   <BISystemRole name="BISystem"/>
+   <AuthenticatedUserRole name="AuthenticatedUser"/>   
+</ReservedApplicationRoles>

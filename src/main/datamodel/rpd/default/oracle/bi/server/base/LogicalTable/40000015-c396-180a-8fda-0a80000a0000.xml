@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m40000015-c396-180a-8fda-0a80000a0000" name="Job History" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/80000000-c38d-180a-8fda-0a80000a0000.xml#m80000000-c38d-180a-8fda-0a80000a0000">
+<LogicalColumn mdsid="m40000017-c396-180a-8fda-0a80000a0000" name="Department ID" isWriteable="false">
+<AttributeDefn mdsid="m00000001-01f4-0000-c801-49e800000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."JOB_HISTORY"."DEPARTMENT_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-c801-49e800000000-m4000001d-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/4000001c-bfe6-180a-b3c9-0a80000a0000.xml#m4000001d-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000018-c396-180a-8fda-0a80000a0000" name="Employee ID" isWriteable="false">
+<AttributeDefn mdsid="m00000002-01f4-0000-2770-897a00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."JOB_HISTORY"."EMPLOYEE_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-2770-897a00000000-m4000001e-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/4000001c-bfe6-180a-b3c9-0a80000a0000.xml#m4000001e-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000019-c396-180a-8fda-0a80000a0000" name="End Date" isWriteable="false">
+<AttributeDefn mdsid="m00000003-01f4-0000-e55f-8fc500000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."JOB_HISTORY"."END_DATE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-e55f-8fc500000000-m4000001f-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/4000001c-bfe6-180a-b3c9-0a80000a0000.xml#m4000001f-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m4000001a-c396-180a-8fda-0a80000a0000" name="Job ID" isWriteable="false">
+<AttributeDefn mdsid="m00000004-01f4-0000-7ac4-219800000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HR".""."HR"."JOB_HISTORY"."JOB_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-7ac4-219800000000-m40000020-bfe6-180a-b3c9-0a80000a0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/4000001c-bfe6-180a-b3c9-0a80000a0000.xml#m40000020-bfe6-180a-b3c9-0a80000a0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc0000000-c8ac-180a-8fda-0a80000a0000" name="Count" isWriteable="false">
+<MeasureDefn mdsid="mc0000000-c8b7-180a-8fda-0a80000a0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="mc0000001-c8b7-180a-8fda-0a80000a0000" name="AggRule_2050:31671613439711" isDefault="true">
+<Expr mdsid="m00000005-01f4-0000-4eda-2bfe00000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("HR"."Job History"."Count")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-4eda-2bfe00000000-mc0000000-c8ac-180a-8fda-0a80000a0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000015-c396-180a-8fda-0a80000a0000.xml#mc0000000-c8ac-180a-8fda-0a80000a0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttributeDefn mdsid="m00000006-01f4-0000-c6fa-a4cf00000000" name="AttributeDefn">
+<ExprText><![CDATA[1]]></ExprText>
+<ExprTextDesc><![CDATA[1]]></ExprTextDesc>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m4000001c-c396-180a-8fda-0a80000a0000" name="Job History Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m4000001c-c396-180a-8fda-0a80000a0000-m40000017-c396-180a-8fda-0a80000a0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000015-c396-180a-8fda-0a80000a0000.xml#m40000017-c396-180a-8fda-0a80000a0000"/>
+<RefLogicalColumn refId="m4000001c-c396-180a-8fda-0a80000a0000-m40000018-c396-180a-8fda-0a80000a0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000015-c396-180a-8fda-0a80000a0000.xml#m40000018-c396-180a-8fda-0a80000a0000"/>
+<RefLogicalColumn refId="m4000001c-c396-180a-8fda-0a80000a0000-m40000019-c396-180a-8fda-0a80000a0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000015-c396-180a-8fda-0a80000a0000.xml#m40000019-c396-180a-8fda-0a80000a0000"/>
+<RefLogicalColumn refId="m4000001c-c396-180a-8fda-0a80000a0000-m4000001a-c396-180a-8fda-0a80000a0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000015-c396-180a-8fda-0a80000a0000.xml#m4000001a-c396-180a-8fda-0a80000a0000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m40000015-c396-180a-8fda-0a80000a0000-m40000016-c396-180a-8fda-0a80000a0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/40000016-c396-180a-8fda-0a80000a0000.xml#m40000016-c396-180a-8fda-0a80000a0000"/>
+</RefTableSources>
+</LogicalTable>

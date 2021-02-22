@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Project mdsid="m00000000-bf9d-180b-9618-0a80000a0000" name="hr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository">
+<RefCatalogs>
+<RefPresentationCatalog refId="m00000000-bf9d-180b-9618-0a80000a0000-mc0000026-c8cb-180a-8edd-0a80000a0000" catalogRef="/oracle/bi/server/base/PresentationCatalog/c0000026-c8cb-180a-8edd-0a80000a0000.xml#mc0000026-c8cb-180a-8edd-0a80000a0000"/>
+</RefCatalogs>
+<RefFactTables>
+<RefLogicalTable refId="m00000000-bf9d-180b-9618-0a80000a0000-m40000015-c396-180a-8fda-0a80000a0000" logicalTableRef="/oracle/bi/server/base/LogicalTable/40000015-c396-180a-8fda-0a80000a0000.xml#m40000015-c396-180a-8fda-0a80000a0000"/>
+</RefFactTables>
+</Project>
